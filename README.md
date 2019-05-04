@@ -1,7 +1,7 @@
 # AndroidSlicer
 AndroidSlicer is a dynamic slicing tool for Android Apps, useful for a variety of tasks, from testing to debugging to security.
 
-# Installation
+# Usage
 AndroidSlicer is in Java. You can find the source code under the "source" directory and the required scripts for running the tool under the "tool" directory.
 
 1. After cloning/extracting the tool directory in a folder (e.g., ~/AndroidSlicer/tool), you just need to change the ***PLATFORDIRFORSLICER*** parameter in 3 **instrumenter.sh**, **preSlicer.sh**, and **AndroidSlicer.sh** script files. ***PLATFORDIRFORSLICER*** is the path of your android sdk/platforms folder.
@@ -50,5 +50,8 @@ Dynamic Slicing for Android
 Tanzirul Azim, Arash Alavi, Iulian Neamtiu, Rajiv Gupta. 
 
 41st International Conference on Software Engineering (ICSE'19), May 2019.
+
+
+# Contacts
 
 If you have questions, please contact Arash Alavi: [aalav003@ucr.edu](aalav003@ucr.edu) or Tanzirul Azim: [tanzir.buet@gmail.com](tanzir.buet@gmail.com).
