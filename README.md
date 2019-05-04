@@ -45,8 +45,10 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
    
 # Paper
 
-Dynamic Slicing for Android 
+Dynamic Slicing for Android
+
 Tanzirul Azim, Arash Alavi, Iulian Neamtiu, Rajiv Gupta. 
+
 41st International Conference on Software Engineering (ICSE'19), May 2019.
 
-If you have questions, please contact Arash Alavi ([aalav003@ucr.edu]) or Tanzirul Azim ([tanzir.buet@gmail.com]).
+If you have questions, please contact Arash Alavi [aalav003@ucr.edu](aalav003@ucr.edu) or [tanzir.buet@gmail.com](tanzir.buet@gmail.com).
