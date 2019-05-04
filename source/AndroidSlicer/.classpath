@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Soot"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/XMLPull"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/CommonIO"/>
+	<classpathentry kind="lib" path="/home/aalav003/Desktop/Slicing-Tanzir/Soot/commons-io-2.5/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="/home/aalav003/Desktop/Slicing-Tanzir/Soot/axml-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/aalav003/Desktop/Slicing-Tanzir/Soot/soot-infoflow.jar"/>
+	<classpathentry kind="lib" path="/home/aalav003/Desktop/Slicing-Tanzir/Soot/soot-infoflow-android.jar"/>
+	<classpathentry kind="lib" path="/home/aalav003/Desktop/Slicing-Tanzir/Soot/soot-trunk.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
