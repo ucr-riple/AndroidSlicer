@@ -1,4 +1,4 @@
-![](images/AndroidSlicer.png)
+<img src="images/AndroidSlicer.png" width="250" height="250">
 
 
 # AndroidSlicer
