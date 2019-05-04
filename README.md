@@ -24,7 +24,7 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
    
    >[E.g., adb logcat | grep SLICING > com.myapp.apk.logcat.txt]
 
-   After you finish with running the app stop the above command. This will collect the required log file for AndroidSlicer.
+   After you finish with running the app, stop the above command. This will collect the required log file for AndroidSlicer.
 
 5. Run the preSlicer script for the app:
 
