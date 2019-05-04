@@ -23,6 +23,8 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
    > [E.g., ./instrumenter.sh com.myapp.apk]
 
    This will instrument the app, sign the instrumented apk file, and install the app on your emulator/real phone.
+   
+   P.S. In order to instrument (or not instrument) specific classes of the app, you can uncomment line number 175 in *Instrumenter.java* and specify the specific classes that you want (or don't want) to be instrumented. Please note that it can potentially lead to missing dependencies, unless you are certain you won't miss dependencies by filtering out those classes. 
        
 4. Run the following commands and then run the app on your emulator/real phone:
 
