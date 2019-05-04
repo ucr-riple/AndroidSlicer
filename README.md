@@ -1,6 +1,14 @@
 # AndroidSlicer
 AndroidSlicer is a dynamic slicing tool for Android Apps, useful for a variety of tasks, from testing to debugging to security.
 
+# Paper
+
+Dynamic Slicing for Android
+
+Tanzirul Azim, Arash Alavi, Iulian Neamtiu, Rajiv Gupta. 
+
+41st International Conference on Software Engineering (ICSE'19), May 2019.
+
 # Usage
 AndroidSlicer is in Java. You can find the source code under the "source" directory and the required scripts for running the tool under the "tool" directory.
 
@@ -15,6 +23,8 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
    > [E.g., ./instrumenter.sh com.myapp.apk]
 
    This will instrument the app, sign the instrumented apk file, and install the app on your emulator/real phone.
+   
+   P.S. In order to instrument (or not instrument) specific classes of the app, you can uncomment line number 175 in *Instrumenter.java* and specify the specific classes that you want (or don't want) to be instrumented. Please note that it can potentially lead to missing dependencies, unless you are certain you won't miss dependencies by filtering out those classes. 
        
 4. Run the following commands and then run the app on your emulator/real phone:
 
@@ -24,7 +34,7 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
    
    >[E.g., adb logcat | grep SLICING > com.myapp.apk.logcat.txt]
 
-   After you finish with running the app stop the above command. This will collect the required log file for AndroidSlicer.
+   After you finish with running the app, stop the above command. This will collect the required log file for AndroidSlicer.
 
 5. Run the preSlicer script for the app:
 
@@ -41,15 +51,6 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
    >[E.g., ./AndroidsSlicer.sh com.myapp.apk]
         
    Finally, you will have the slices files wrt your slicing criteria
-   
-   
-# Paper
-
-Dynamic Slicing for Android
-
-Tanzirul Azim, Arash Alavi, Iulian Neamtiu, Rajiv Gupta. 
-
-41st International Conference on Software Engineering (ICSE'19), May 2019.
 
 
 # Contacts
