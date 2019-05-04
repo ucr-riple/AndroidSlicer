@@ -11,6 +11,7 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
 3. Make sure that either your emulator is running or the phone is connected and accessible via adb. Then run the instrumenter script for the app using the following command:
 
    > **./instrumenter.sh <apk_file>**
+   
    > [E.g., ./instrumenter.sh com.myapp.apk]
 
 This will instrument the app, sign the instrumented apk file, and install the app on your emulator/real phone.
