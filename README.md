@@ -14,7 +14,7 @@ AndroidSlicer is in Java. You can find the source code under the "source" direct
    
    > [E.g., ./instrumenter.sh com.myapp.apk]
 
-This will instrument the app, sign the instrumented apk file, and install the app on your emulator/real phone.
+   This will instrument the app, sign the instrumented apk file, and install the app on your emulator/real phone.
        
 4. Run the following commands and then run the app on your emulator/real phone:
 
@@ -24,7 +24,7 @@ This will instrument the app, sign the instrumented apk file, and install the ap
    
    >[E.g., adb logcat | grep SLICING > com.myapp.apk.logcat.txt]
 
-After you finish with running the app stop the above command. This will collect the required log file for AndroidSlicer.
+   After you finish with running the app stop the above command. This will collect the required log file for AndroidSlicer.
 
 5. Run the preSlicer script for the app:
 
@@ -32,7 +32,7 @@ After you finish with running the app stop the above command. This will collect 
    
    >[E.g., ./preSlicer.sh com.myapp.apk]
 
-This will create a <apk_file>.logcat.processed.txt file. Each line starts with a number. You need to pick a number (your interesting point as the slicing criteria) to add to the next command. 
+   This will create a <apk_file>.logcat.processed.txt file. Each line starts with a number. You need to pick a number (your interesting point as the slicing criteria) to add to the next command. 
 
 6. Run the AndroidsSlicer script for the app and then enter the number that you picked from previous step:
 
@@ -40,4 +40,4 @@ This will create a <apk_file>.logcat.processed.txt file. Each line starts with a
    
    >[E.g., ./AndroidsSlicer.sh com.myapp.apk]
         
-Finally, you will have the slices files.
+   Finally, you will have the slices files.
