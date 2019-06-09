@@ -5,8 +5,7 @@
 AndroidSlicer is a dynamic slicing tool for Android Apps, useful for a variety of tasks, from testing to debugging to security.
 
 # Paper
-
-Dynamic Slicing for Android
+[Dynamic Slicing for Android](https://dl.acm.org/citation.cfm?id=3339649)
 
 Tanzirul Azim, Arash Alavi, Iulian Neamtiu, Rajiv Gupta. 
 
